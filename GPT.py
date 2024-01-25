@@ -3,8 +3,16 @@ from clarifai_grpc.channel.clarifai_channel import ClarifaiChannel
 from clarifai_grpc.grpc.api import resources_pb2, service_pb2, service_pb2_grpc
 from clarifai_grpc.grpc.api.status import status_code_pb2
 import os
+import openai
+from clarifai_grpc.channel.clarifai_channel import ClarifaiChannel
+from clarifai_grpc.grpc.api import resources_pb2, service_pb2, service_pb2_grpc
+from clarifai_grpc.grpc.api.status import status_code_pb2
+from clarifai.client.model import Model
+from clarifai.client.input import Inputs
+
 
 os.environ["CLARIFAI_PAT"] = "7a721760203b47449d49d281dd2f3c9c"
+openai.api_key ='7a721760203b47449d49d281dd2f3c9c'
 
 PAT = '7a721760203b47449d49d281dd2f3c9c'
 
