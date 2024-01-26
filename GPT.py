@@ -59,7 +59,7 @@ def is_medical_question(question):
     return any(keyword in question.lower() for keyword in medical_keywords)
 
 def main():
-    x=True
+    
     # Set page title and favicon
     st.set_page_config(page_title="Medical and Health Care BOT", page_icon="💊")
 
@@ -109,11 +109,7 @@ def main():
             st.text_area("**OUTPUT**", value=output, height=150)
             st.warning("Disclaimer: This BOT is not an alternative to a health professional. It is for awareness purposes only. In case of emergency, consult your medical doctor.")
     else:
-        if x is True:
-            print('')
-            x=False
-        else:    
-            st.warning("I only provide you the awareness about medical and health care.")
+        st.warning("I only provide you the awareness about medical and health care.")
 
 if __name__ == "__main__":
     main()
