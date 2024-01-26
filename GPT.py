@@ -107,7 +107,7 @@ def main():
             st.text_area("**OUTPUT**", value=output, height=150)
             st.warning("Disclaimer: This BOT is not an alternative to a health professional. It is for awareness purposes only. In case of emergency, consult your medical doctor.")
     else:
-        st.warning("I apologize, My knowledge is limited so I can't assist you in this regard.")
+        st.warning("I only provide you the awareness about medical and health care.")
 
 if __name__ == "__main__":
     main()
