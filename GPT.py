@@ -109,7 +109,7 @@ def is_medical_question(question):
     'allied health education', 'continuing medical education', 'interprofessional education',
     'medical residency programs', 'fellowship programs', 'nursing residency programs',
     'physician assistant training', 'pharmacy education', 'dental education','eye','ear','tooth','hand','brain','hair','foot',
-     'teeth','nose','diet','anger'   
+     'teeth','nose','diet','anger','pneumonia'  
     ]
 
     return any(keyword in question.lower() for keyword in medical_keywords)
