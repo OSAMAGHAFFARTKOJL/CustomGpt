@@ -53,7 +53,8 @@ def is_medical_question(question):
         'stress management', 'workplace health', 'ergonomics',
         'health education', 'patient advocacy', 'healthcare policy',
         'medical ethics', 'end-of-life care', 'living will', 'organ donation', 'tired','neurolinguistic','sick',
-        'ill','well','health','unhealthy','throat','wound','pain','wounds','scratch','accident','swelling'
+        'ill','well','health','unhealthy','throat','wound','pain','wounds','scratch','accident','swelling','cough',
+        'acidity','stiffness','headache'
     ]
 
     return any(keyword in question.lower() for keyword in medical_keywords)
