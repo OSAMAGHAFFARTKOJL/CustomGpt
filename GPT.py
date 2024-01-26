@@ -110,7 +110,8 @@ def is_medical_question(question):
     'medical residency programs', 'fellowship programs', 'nursing residency programs',
     'physician assistant training', 'pharmacy education', 'dental education','eye','ear','tooth','hand','brain','hair','foot',
      'teeth','nose','diet','anger','pneumonia','neurolinguistic','depression','stress','mouth','symptoms','precautions','breath',
-        'medical','health'
+        'medical','health','cramps','joint disease','synonsis','disk slip','arthritis','inheritence','sex','reproduction','diabetes',
+        'hypertension','patients'
     ]
 
     return any(keyword in question.lower() for keyword in medical_keywords)
