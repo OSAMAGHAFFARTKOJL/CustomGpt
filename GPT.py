@@ -10,10 +10,10 @@ from clarifai_grpc.grpc.api.status import status_code_pb2
 from clarifai.client.model import Model
 from clarifai.client.input import Inputs
 
-os.environ["CLARIFAI_PAT"] = "7a721760203b47449d49d281dd2f3c9c"
-openai.api_key ='7a721760203b47449d49d281dd2f3c9c'
+os.environ["CLARIFAI_PAT"] = "8056d85317e74ce6aba400d4bafc4625"
+openai.api_key ='8056d85317e74ce6aba400d4bafc4625'
 
-PAT = '7a721760203b47449d49d281dd2f3c9c'
+PAT = '8056d85317e74ce6aba400d4bafc4625'
 
 # Specify the correct user_id/app_id pairings
 USER_ID = 'openai'
